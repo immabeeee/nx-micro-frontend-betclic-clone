@@ -14,7 +14,13 @@
     "default": {
       "runner": "@nrwl/workspace/tasks-runners/default",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e",
+          "build-storybook"
+        ]
       }
     }
   },
@@ -40,6 +46,21 @@
     "betclic-shell-e2e": {
       "tags": [],
       "implicitDependencies": ["betclic-shell"]
+    },
+    "shared-assets": {
+      "tags": []
+    },
+    "shared-styles": {
+      "tags": []
+    },
+    "ui-button": {
+      "tags": []
+    },
+    "ui-navbar": {
+      "tags": []
+    },
+    "ui-section-template": {
+      "tags": []
     }
   }
 }

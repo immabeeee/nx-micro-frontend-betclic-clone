@@ -1,0 +1,16 @@
+<button
+  class="btn"
+  name="name"
+  [ngClass]="{
+    active: isActive,
+    primary: isPrimary,
+    secondary: isSecondary,
+    tertiary: isTertiary,
+    quaternary: isQuaternary,
+    large: isLarge,
+    medium: isMedium,
+    small: isSmall
+  }"
+>
+  <ng-content></ng-content>
+</button>
